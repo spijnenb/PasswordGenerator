@@ -1,0 +1,22 @@
+body {
+  background-color: #000;
+}
+div {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 24px;
+  color: #fff;
+  line-height: 3rem;
+}
+
+.navigate:before {
+  content: "[ ";
+}
+.navigate:after {
+  content: " ] ";
+}
+.selected {
+  color: yellow;
+}
+.hide {
+  display: none;
+}
