@@ -1,23 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Password Generator</title>
-    <link rel="stylesheet" href="assets/styles.css" />
-  </head>
 
-  <body>
-    <div>
-      <span class="navigate"></span><span class="action-label" data-password-type="normal">Generate a password</span
-      ><span class="password"></span>
-    </div>
-    <div>
-      <span class="navigate"></span>
-      <span class="action-label" data-password-type="strong">Generate a really strong password</span
-      ><span class="password"></span>
-    </div>
-  </body>
-  <script src="assets/app.js"></script>
-  <script src="assets/events.js"></script>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Password Generator</title>
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+
+<body>
+  <div class="help">
+    <p>Navigate by using the arrow keys. <span>⇧</span><span>⇩</span></p>
+    <p>Press <span>Enter</span> to copy your password to your clipboard.</p>
+
+  </div>
+  <div>
+    <span class="navigate"></span><span class="action-label" data-password-type="normal">Generate a password</span><span
+      class="password"></span>
+  </div>
+  <div>
+    <span class="navigate"></span>
+    <span class="action-label" data-password-type="strong">Generate a really strong password</span><span
+      class="password"></span>
+  </div>
+</body>
+<script src="assets/app.js"></script>
+<script src="assets/events.js"></script>
+
 </html>

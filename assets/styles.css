@@ -20,3 +20,15 @@ div {
 .hide {
   display: none;
 }
+.help {
+  font-size: 18px;
+  line-height: 1rem;
+  text-align: center;
+  color: grey;
+  margin-bottom: 60px;
+}
+.help > p > span {
+  border: 1px solid grey;
+  padding: 5px 10px;
+  margin: 0px 5px;
+}
